@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <img src="pawpatrol.png">
+    <br>
+    <br>
+    <section>
+        <h1>
+            Grid Gallery
+        </h1>
+        <img src="marshaal2.jpg">
+        <img src="chase.jfif">
+        <img src="rubble.jpg">
+        <img src="Rockey.jpg">
+        <img src="zuma.jpg">
+        <img src="Skye.jpg">
+        <img src="everest.png">
+        <img src="tracker.jpg">
+    </section>
+    <section>
+        <h1>
+            Sliding Gallery
+        </h1>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center> <a href="#" target="_blank"> <img src="marshaal2.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Marshall</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="chase.jfif" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Chase</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="rubble.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Rubble</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="Rockey.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Rockey</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="zuma.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Zuma</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="Skye.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Skye</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="everest.png" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Everest</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="tracker.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Tracker</p>
+                        </div>
+                    </center>
+                </div>
+            </div> <!-- Left and right controls --> <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+        <div style="text-align: center">
+            <span class="dot" onclick=currentSlide(1)>
+            </span>
+            <span class="dot" onclick=currentSlide(2)>
+            </span>
+            <span class="dot" onclick=currentSlide(3)>
+            </span>
+            <span class="dot" onclick=currentSlide(4)>
+            </span>
+            <span class="dot" onclick=currentSlide(5)>
+            </span>
+            <span class="dot" onclick=currentSlide(6)>
+            </span>
+            <span class="dot" onclick=currentSlide(7)>
+            </span>
+            <span class="dot" onclick=currentSlide(8)>
+            </span>
+        </div>
+    </section>
+</body>
+
+</html>
